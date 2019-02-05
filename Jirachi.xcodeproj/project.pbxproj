@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02EA0218C48CA39653B3A38C /* Pods_Jirachi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD29FE06C2DE92415F72C912 /* Pods_Jirachi.framework */; };
+		2CEF65627558767903CA2416 /* Pods_JirachiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B244E63D5A259F87C98F02D3 /* Pods_JirachiTests.framework */; };
+		6E9D2559E7FC163D98A3E306 /* Pods_JirachiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681B976603A15B06B620E327 /* Pods_JirachiUITests.framework */; };
 		BCA3A52D22094BB300FFA773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3A52C22094BB300FFA773 /* AppDelegate.swift */; };
 		BCA3A52F22094BB300FFA773 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3A52E22094BB300FFA773 /* FirstViewController.swift */; };
 		BCA3A53122094BB300FFA773 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3A53022094BB300FFA773 /* SecondViewController.swift */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B07EF63346FE2EA583D256F /* Pods-JirachiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JirachiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JirachiUITests/Pods-JirachiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		681B976603A15B06B620E327 /* Pods_JirachiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JirachiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7F32F311D3167474CE7F28 /* Pods-JirachiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JirachiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JirachiUITests/Pods-JirachiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A18B80F5394F68C1CA153C1B /* Pods-Jirachi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jirachi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jirachi/Pods-Jirachi.release.xcconfig"; sourceTree = "<group>"; };
+		A1ED36BDEB511431784EA44C /* Pods-JirachiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JirachiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JirachiTests/Pods-JirachiTests.release.xcconfig"; sourceTree = "<group>"; };
+		B244E63D5A259F87C98F02D3 /* Pods_JirachiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JirachiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA3A52922094BB300FFA773 /* Jirachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jirachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA3A52C22094BB300FFA773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCA3A52E22094BB300FFA773 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		BCA3A54A22094BB600FFA773 /* JirachiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JirachiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA3A54E22094BB600FFA773 /* JirachiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JirachiUITests.swift; sourceTree = "<group>"; };
 		BCA3A55022094BB600FFA773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD29FE06C2DE92415F72C912 /* Pods_Jirachi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jirachi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC013CBC1DA563308C8624EF /* Pods-JirachiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JirachiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JirachiTests/Pods-JirachiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBF1006EFC584BF62EC82502 /* Pods-Jirachi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jirachi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jirachi/Pods-Jirachi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02EA0218C48CA39653B3A38C /* Pods_Jirachi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEF65627558767903CA2416 /* Pods_JirachiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9D2559E7FC163D98A3E306 /* Pods_JirachiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ABC7760190A3A85466E187B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD29FE06C2DE92415F72C912 /* Pods_Jirachi.framework */,
+				B244E63D5A259F87C98F02D3 /* Pods_JirachiTests.framework */,
+				681B976603A15B06B620E327 /* Pods_JirachiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BCA3A52022094BB300FFA773 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				BCA3A54222094BB600FFA773 /* JirachiTests */,
 				BCA3A54D22094BB600FFA773 /* JirachiUITests */,
 				BCA3A52A22094BB300FFA773 /* Products */,
+				EE6FFBFEC02D6DC061773953 /* Pods */,
+				ABC7760190A3A85466E187B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,19 @@
 			path = JirachiUITests;
 			sourceTree = "<group>";
 		};
+		EE6FFBFEC02D6DC061773953 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1006EFC584BF62EC82502 /* Pods-Jirachi.debug.xcconfig */,
+				A18B80F5394F68C1CA153C1B /* Pods-Jirachi.release.xcconfig */,
+				EC013CBC1DA563308C8624EF /* Pods-JirachiTests.debug.xcconfig */,
+				A1ED36BDEB511431784EA44C /* Pods-JirachiTests.release.xcconfig */,
+				0B07EF63346FE2EA583D256F /* Pods-JirachiUITests.debug.xcconfig */,
+				7F7F32F311D3167474CE7F28 /* Pods-JirachiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCA3A55322094BB600FFA773 /* Build configuration list for PBXNativeTarget "Jirachi" */;
 			buildPhases = (
+				B24E44E72B5C9D27097E7786 /* [CP] Check Pods Manifest.lock */,
 				BCA3A52522094BB300FFA773 /* Sources */,
 				BCA3A52622094BB300FFA773 /* Frameworks */,
 				BCA3A52722094BB300FFA773 /* Resources */,
+				205DD8DA74D21DC65AF66B28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCA3A55622094BB600FFA773 /* Build configuration list for PBXNativeTarget "JirachiTests" */;
 			buildPhases = (
+				EE3134684278E290050B5E51 /* [CP] Check Pods Manifest.lock */,
 				BCA3A53B22094BB600FFA773 /* Sources */,
 				BCA3A53C22094BB600FFA773 /* Frameworks */,
 				BCA3A53D22094BB600FFA773 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCA3A55922094BB600FFA773 /* Build configuration list for PBXNativeTarget "JirachiUITests" */;
 			buildPhases = (
+				99E0B90DEB63E9A022164E61 /* [CP] Check Pods Manifest.lock */,
 				BCA3A54622094BB600FFA773 /* Sources */,
 				BCA3A54722094BB600FFA773 /* Frameworks */,
 				BCA3A54822094BB600FFA773 /* Resources */,
@@ -253,6 +297,95 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		205DD8DA74D21DC65AF66B28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Jirachi/Pods-Jirachi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BSBacktraceLogger/BSBacktraceLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/DoraemonKit/DoraemonKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PNChart/PNChart.framework",
+				"${BUILT_PRODUCTS_DIR}/UICountingLabel/UICountingLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
+				"${BUILT_PRODUCTS_DIR}/fishhook/fishhook.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BSBacktraceLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoraemonKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PNChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICountingLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fishhook.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jirachi/Pods-Jirachi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E0B90DEB63E9A022164E61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JirachiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24E44E72B5C9D27097E7786 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jirachi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE3134684278E290050B5E51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JirachiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCA3A52522094BB300FFA773 /* Sources */ = {
@@ -434,6 +567,7 @@
 		};
 		BCA3A55422094BB600FFA773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF1006EFC584BF62EC82502 /* Pods-Jirachi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +577,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = stephen.ma.Jirachi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -452,6 +587,7 @@
 		};
 		BCA3A55522094BB600FFA773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18B80F5394F68C1CA153C1B /* Pods-Jirachi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +606,7 @@
 		};
 		BCA3A55722094BB600FFA773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC013CBC1DA563308C8624EF /* Pods-JirachiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +628,7 @@
 		};
 		BCA3A55822094BB600FFA773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1ED36BDEB511431784EA44C /* Pods-JirachiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +650,7 @@
 		};
 		BCA3A55A22094BB600FFA773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B07EF63346FE2EA583D256F /* Pods-JirachiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +671,7 @@
 		};
 		BCA3A55B22094BB600FFA773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7F32F311D3167474CE7F28 /* Pods-JirachiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

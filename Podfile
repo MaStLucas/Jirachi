@@ -7,6 +7,8 @@ target 'Jirachi' do
 
   # Pods for Jirachi
 
+  pod 'DoraemonKit/WithLogger', '1.1.3', :configurations => ['Debug']
+
   target 'JirachiTests' do
     inherit! :search_paths
     # Pods for testing
