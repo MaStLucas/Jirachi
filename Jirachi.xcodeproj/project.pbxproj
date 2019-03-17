@@ -10,6 +10,7 @@
 		02EA0218C48CA39653B3A38C /* Pods_Jirachi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD29FE06C2DE92415F72C912 /* Pods_Jirachi.framework */; };
 		2CEF65627558767903CA2416 /* Pods_JirachiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B244E63D5A259F87C98F02D3 /* Pods_JirachiTests.framework */; };
 		6E9D2559E7FC163D98A3E306 /* Pods_JirachiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681B976603A15B06B620E327 /* Pods_JirachiUITests.framework */; };
+		BC69BE39223E7681005F91A6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC69BE38223E7681005F91A6 /* ThirdViewController.swift */; };
 		BCA3A52D22094BB300FFA773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3A52C22094BB300FFA773 /* AppDelegate.swift */; };
 		BCA3A52F22094BB300FFA773 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3A52E22094BB300FFA773 /* FirstViewController.swift */; };
 		BCA3A53122094BB300FFA773 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3A53022094BB300FFA773 /* SecondViewController.swift */; };
@@ -44,6 +45,7 @@
 		A18B80F5394F68C1CA153C1B /* Pods-Jirachi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jirachi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jirachi/Pods-Jirachi.release.xcconfig"; sourceTree = "<group>"; };
 		A1ED36BDEB511431784EA44C /* Pods-JirachiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JirachiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JirachiTests/Pods-JirachiTests.release.xcconfig"; sourceTree = "<group>"; };
 		B244E63D5A259F87C98F02D3 /* Pods_JirachiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JirachiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC69BE38223E7681005F91A6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		BCA3A52922094BB300FFA773 /* Jirachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jirachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA3A52C22094BB300FFA773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCA3A52E22094BB300FFA773 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				BCA3A52C22094BB300FFA773 /* AppDelegate.swift */,
 				BCA3A52E22094BB300FFA773 /* FirstViewController.swift */,
 				BCA3A53022094BB300FFA773 /* SecondViewController.swift */,
+				BC69BE38223E7681005F91A6 /* ThirdViewController.swift */,
 				BCA3A53222094BB300FFA773 /* Main.storyboard */,
 				BCA3A53522094BB600FFA773 /* Assets.xcassets */,
 				BCA3A53722094BB600FFA773 /* LaunchScreen.storyboard */,
@@ -394,6 +397,7 @@
 			files = (
 				BCA3A53122094BB300FFA773 /* SecondViewController.swift in Sources */,
 				BCA3A52D22094BB300FFA773 /* AppDelegate.swift in Sources */,
+				BC69BE39223E7681005F91A6 /* ThirdViewController.swift in Sources */,
 				BCA3A52F22094BB300FFA773 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
