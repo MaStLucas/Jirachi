@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - boost-for-react-native (1.63.0)
   - BSBacktraceLogger (0.0.1)
   - CocoaLumberjack (3.5.1):
     - CocoaLumberjack/Core (= 3.5.1)
@@ -32,18 +33,77 @@ PODS:
     - fishhook
     - PNChart
     - "UITextView+Placeholder"
+  - DoubleConversion (1.1.6)
   - fishhook (0.2)
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
   - PNChart (0.8.9):
     - UICountingLabel (~> 1.2.0)
+  - React/Core (0.59.1):
+    - yoga (= 0.59.1.React)
+  - React/CxxBridge (0.59.1):
+    - Folly (= 2018.10.22.00)
+    - React/Core
+    - React/cxxreact
+    - React/jsiexecutor
+  - React/cxxreact (0.59.1):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/jsinspector
+  - React/DevSupport (0.59.1):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.59.1)
+  - React/jsi (0.59.1):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - React/jsiexecutor (0.59.1):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/cxxreact
+    - React/jsi
+  - React/jsinspector (0.59.1)
+  - React/RCTAnimation (0.59.1):
+    - React/Core
+  - React/RCTBlob (0.59.1):
+    - React/Core
+  - React/RCTNetwork (0.59.1):
+    - React/Core
+  - React/RCTText (0.59.1):
+    - React/Core
+  - React/RCTWebSocket (0.59.1):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
   - UICountingLabel (1.2.0)
   - "UITextView+Placeholder (1.2.1)"
+  - yoga (0.59.1.React)
 
 DEPENDENCIES:
   - DoraemonKit/WithLogger (= 1.1.3)
+  - DoubleConversion (from `./Jirachi-RN/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `./Jirachi-RN/node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `./Jirachi-RN/node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - React/Core (from `./Jirachi-RN/node_modules/react-native`)
+  - React/CxxBridge (from `./Jirachi-RN/node_modules/react-native`)
+  - React/DevSupport (from `./Jirachi-RN/node_modules/react-native`)
+  - React/RCTAnimation (from `./Jirachi-RN/node_modules/react-native`)
+  - React/RCTNetwork (from `./Jirachi-RN/node_modules/react-native`)
+  - React/RCTText (from `./Jirachi-RN/node_modules/react-native`)
+  - React/RCTWebSocket (from `./Jirachi-RN/node_modules/react-native`)
+  - yoga (from `./Jirachi-RN/node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - boost-for-react-native
     - BSBacktraceLogger
     - CocoaLumberjack
     - DoraemonKit
@@ -52,16 +112,34 @@ SPEC REPOS:
     - UICountingLabel
     - "UITextView+Placeholder"
 
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "./Jirachi-RN/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "./Jirachi-RN/node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "./Jirachi-RN/node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "./Jirachi-RN/node_modules/react-native"
+  yoga:
+    :path: "./Jirachi-RN/node_modules/react-native/ReactCommon/yoga"
+
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   BSBacktraceLogger: 06b983ee93a9f87d957960e9c73d660d5966b447
   CocoaLumberjack: 2101f8a5508197a305e737d16c5c2e9e2157628c
   DoraemonKit: 719b45ca8607e5067cf0d4a8bdb319aa81eebdba
+  DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
   fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  Folly: de497beb10f102453a1afa9edbf8cf8a251890de
+  glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
   PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
+  React: 34a405ead72252839fdc4afc1f972a7ed984af84
   UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
   "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
+  yoga: 8fb47f180b19b0dadb285a09e4c74c8a41721d3a
 
-PODFILE CHECKSUM: f7063f03fff411944b5abc5599f60718b54a3ecb
+PODFILE CHECKSUM: 2f12122c584beadcfa4c476e0a369700e9b67ca5
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1
