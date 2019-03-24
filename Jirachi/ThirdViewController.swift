@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import React
 
 class ThirdViewController: UIViewController {
 
@@ -14,6 +15,22 @@ class ThirdViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let jsCodeLocation = URL(string: "http://169.254.219.100:8081/index.bundle?platform=ios&dev=true")
+        let mockData:NSDictionary = ["scores":
+            [
+                ["name":"Alex", "value":"42"],
+                ["name":"Joel", "value":"10"]
+            ]
+        ]
+        
+        let rootView = RCTRootView(
+            bundleURL: jsCodeLocation,
+            moduleName: "RNHighScores",
+            initialProperties: mockData as [NSObject : AnyObject],
+            launchOptions: nil
+        )
+        self.view = rootView
     }
     
 
